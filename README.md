@@ -1,1 +1,3 @@
-# CTD Front I - Atividade integradora
+# CTD Front I - Atividade Integradora
+## Professor Willian Sant Anna
+## Tutora Isabella Lopes
