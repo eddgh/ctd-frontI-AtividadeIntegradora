@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atividade Integradora</title>
+    <style type="text/css">
+        /* Dica: https://caniuse.com/ */
+        /* Bloco: Banner */
+        .banner {
+            background-color: greenyellow;
+        }
+        /* Elemento: Corpo */
+        .banner__corpo {
+            margin: 0 auto;
+            max-width: 80%;
+        }
+        /* Elemento: Texto */
+        .banner__texto {
+            font-family: 'Arial Black', Arial, sans-serif;
+        }
+        /* Elemento: Botão */
+        .banner__botao {
+            border: 1px solid black;
+            border-radius: 25px;
+            color: black;
+            font-family: Arial, sans-serif;
+            padding: 5px 15px;
+            margin-left: 15px;
+            text-decoration: none;
+        }
+        .banner__texto, .banner__botao {
+            display: inline-block;
+        }
+        /* Modificador: Desabilitado */
+        .banner__botao--desabilitado {
+            border: 1px solid gray;
+            color: gray;
+        }        
+    </style>
 </head>
 <body>
-    
+    <!-- 1/3 Rascunho -->
+    <!--
+    <div>
+        <div>
+            <div>baixe o e-book Culturas de Perifieria |</div>
+            <div>faça o download e-book</div>
+        </div>
+    </div>
+    -->
+    <!-- 2/3 Semântica -->
+    <!--
+    <main>
+        <article>
+            <h1>baixe o e-book Culturas de Periferia |</h1>
+            <a href="">faça o download e-book</a>
+        </article>
+    </main>
+    -->
+    <!-- 3/3 BEM (Bloco, Elemento, Modificador) CSS -->
+    <!-- Bloco: Banner -->
+    <main class="banner">
+        <!-- Elemento: Corpo -->
+        <article class="banner__corpo">
+            <!-- Elemento: Texto -->
+            <h1 class="banner__texto">baixe o e-book Culturas de Periferia |</h1>
+            <!-- Elemento: Botão -->
+            <!-- Modificador: Desabilitado -->
+            <a class="banner__botao banner__botao--desabilitado" href="">faça o download e-book</a>
+        </article>
+    </main>
+
 </body>
 </html>
